@@ -19,8 +19,7 @@ Database: MongoDB
 ## Demo Video
 
 Watch the full project demo here:
-
-PASTE YOUR VIDEO LINK HERE
+https://drive.google.com/file/d/1pgqVy8h5fDdK5CjI3uc2qT3fll5D-6mz/view?usp=drivesdk
 
 ## GitHub Repository
 
