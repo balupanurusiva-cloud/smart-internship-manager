@@ -1,18 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Task Dashboard</title>
+<title>Task Dashboard</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f4f6f9;
+margin:0;
+padding:20px;
+}
+
+h1{
+text-align:center;
+color:#333;
+}
+
+.task-box{
+background:white;
+padding:20px;
+border-radius:8px;
+width:400px;
+margin:auto;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+padding:10px 15px;
+background:#667eea;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#5563c1;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+background:white;
+margin:10px 0;
+padding:10px;
+border-radius:5px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+</style>
+
 </head>
+
 <body>
 
-<h2>Create Task</h2>
+<h1>Task Dashboard</h1>
+
+<div class="task-box">
 
 <input type="text" id="title" placeholder="Task Title">
+
 <input type="text" id="description" placeholder="Task Description">
+
 <button onclick="addTask()">Add Task</button>
 
-<h2>All Tasks</h2>
+<h3>All Tasks</h3>
+
 <ul id="taskList"></ul>
+
+</div>
 
 <script src="../js/dashboard.js"></script>
 
